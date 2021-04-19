@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 namespace BlocNotasDomingo
@@ -19,6 +20,22 @@ namespace BlocNotasDomingo
         {
             Console.ReadLine();
             main.Main();
+        }
+
+        public static void verificar_carpeta_notas()
+        {
+            string ruta = @"C:\notas\";
+
+            try
+            {
+                if (!Directory.Exists(ruta))
+                {
+                    DirectoryInfo di = Directory.CreateDirectory(ruta);
+                }
+            } catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
     }
 }

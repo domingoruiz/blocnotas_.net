@@ -26,6 +26,7 @@ namespace BlocNotasDomingo
         {
             //Recorremos todas las notas que existen en este momento
             string directorio = @"C:\notas\";
+            Funciones.verificar_carpeta_notas();
             string[] ficheros = Directory.GetFiles(directorio);
 
             //Iniciamos el contador
@@ -164,6 +165,7 @@ namespace BlocNotasDomingo
 
             // Guardamos la nota en el archivo correspondiente
             string rutaCompleta = @"C:\notas\" + nombrenota + ".xml";
+            Funciones.verificar_carpeta_notas();
             using (StreamWriter file = File.AppendText(rutaCompleta))
             {
                 file.WriteLine(xmlresultante);
@@ -180,6 +182,7 @@ namespace BlocNotasDomingo
         {
             //Recorremos todas las notas que existen en este momento
             string directorio =  @"C:\notas\";
+            Funciones.verificar_carpeta_notas();
             string[] ficheros = Directory.GetFiles(directorio);
 
             //Iniciamos el contador

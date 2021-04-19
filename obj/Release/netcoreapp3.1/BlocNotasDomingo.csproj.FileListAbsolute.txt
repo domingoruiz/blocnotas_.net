@@ -22,3 +22,4 @@ C:\Users\User\source\repos\BlocNotasDomingo\obj\Release\netcoreapp3.1\BlocNotasD
 C:\Users\User\source\repos\BlocNotasDomingo\obj\Release\netcoreapp3.1\BlocNotasDomingo.dll
 C:\Users\User\source\repos\BlocNotasDomingo\obj\Release\netcoreapp3.1\BlocNotasDomingo.pdb
 C:\Users\User\source\repos\BlocNotasDomingo\obj\Release\netcoreapp3.1\BlocNotasDomingo.genruntimeconfig.cache
+C:\Users\User\source\repos\BlocNotasDomingo\obj\Release\netcoreapp3.1\BlocNotasDomingo.csprojAssemblyReference.cache
