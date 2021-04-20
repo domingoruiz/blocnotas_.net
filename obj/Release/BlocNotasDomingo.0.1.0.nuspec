@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BlocNotasDomingo</id>
+    <version>0.1.0</version>
+    <authors>Domingo Ruiz Arroyo</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>https://github.com/domingoruiz/blocnotas_.net/</projectUrl>
+    <description>Package Description</description>
+    <copyright>﻿The MIT License (MIT)</copyright>
+    <repository type="GIT" url="https://github.com/domingoruiz/blocnotas_.net/" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\User\source\repos\BlocNotasDomingo\bin\Release\netcoreapp3.1\BlocNotasDomingo.runtimeconfig.json" target="lib\netcoreapp3.1\BlocNotasDomingo.runtimeconfig.json" />
+    <file src="C:\Users\User\source\repos\BlocNotasDomingo\bin\Release\netcoreapp3.1\BlocNotasDomingo.dll" target="lib\netcoreapp3.1\BlocNotasDomingo.dll" />
+    <file src="C:\Users\User\source\repos\BlocNotasDomingo\LICENSE" target="LICENSE" />
+  </files>
+</package>

@@ -11,13 +11,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("BlocNotasDomingo")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Domingo Ruiz Arroyo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("﻿The MIT License (MIT)")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlocNotasDomingo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlocNotasDomingo")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("0.1.0.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/domingoruiz/blocnotas_.net/")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
 

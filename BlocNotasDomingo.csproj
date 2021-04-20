@@ -3,6 +3,27 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>0.1</Version>
+    <Authors>Domingo Ruiz Arroyo</Authors>
+    <Company />
+    <Copyright>﻿The MIT License (MIT)</Copyright>
+    <PackageProjectUrl>https://github.com/domingoruiz/blocnotas_.net/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/domingoruiz/blocnotas_.net/</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <SignAssembly>true</SignAssembly>
+    <ApplicationIcon>vector-notes-icon.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>5</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
