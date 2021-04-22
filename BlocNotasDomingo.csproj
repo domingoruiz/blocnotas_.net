@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <Version>0.1</Version>
+    <Version>0.2</Version>
     <Authors>Domingo Ruiz Arroyo</Authors>
     <Company />
     <Copyright>﻿The MIT License (MIT)</Copyright>
@@ -12,8 +12,9 @@
     <RepositoryType>GIT</RepositoryType>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <SignAssembly>true</SignAssembly>
-    <ApplicationIcon>vector-notes-icon.ico</ApplicationIcon>
+    <ApplicationIcon>icono_aplicacion.ico</ApplicationIcon>
     <Platforms>AnyCPU;x64;x86</Platforms>
+    <PackageIcon>icono_aplicacion.ico</PackageIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -28,7 +29,15 @@
     <WarningLevel>5</WarningLevel>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>3</WarningLevel>
+  </PropertyGroup>
+
   <ItemGroup>
+    <None Include="icono_aplicacion.ico">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
     <None Include="LICENSE">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
